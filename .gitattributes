@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+# Do not edit manually
+
+*.sh text eol=lf
+dist/* linguist-vendored
+*.gif binary
+src/**/*.tsx linguist-detectable
+
+public/* linguist-vendored
+*.json linguist-detectable=false
+*.woff2 binary
+*.yml linguist-detectable=false
+*.htm linguist-vendored
